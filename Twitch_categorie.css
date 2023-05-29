@@ -1,0 +1,60 @@
+ /* CSS della pagina con le migliori categorie per spettatori di twitch */
+
+/*                       ############################################        */
+/*                       ##     Css Categorie di twitchlibreria    ##        */
+/*                       ############################################        */
+
+h1.titolo{
+    margin-top: 40px;
+    color: rgb(152, 78, 236);
+    margin-bottom: 0px;
+    padding-left: 20px;
+    font-size: 2.5em;
+    text-decoration: underline;
+    text-decoration-color:rgb(152, 78, 236) ;
+}
+h1.titolo_ricerca{
+    text-align: center;
+}
+section.categoria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 6px;
+    margin-top: 20px;
+}
+
+section.categoria a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 11.8%; 
+    border: 2px solid rgb(152, 78, 236);
+    margin-bottom: 40px;
+    text-decoration: none;
+    color: black;
+    border-radius: 8px;
+}
+
+section.categoria div.contenitore div.hidden{
+    display: none;
+}
+
+section.categoria div.contenitore div.img,
+section.categoria div.contenitore div.img img{
+    width: 100%;    
+}
+
+section.categoria div.contenitore div.img img{
+    border-radius: 6px;
+}
+
+section.categoria h2{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin:10px 0px;
+    
+    padding-left: 4px;
+    
+}

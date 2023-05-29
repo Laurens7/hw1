@@ -1,0 +1,111 @@
+/* CSS canali e streams preferite dall'utente */
+h1.Titolo_prefe{
+    margin-top: 40px;
+    color: rgb(152, 78, 236);
+    font-size: 3.5em;
+    text-decoration: underline;
+    text-decoration-color:rgb(152, 78, 236) ;
+}
+span.no_prefe{
+    color: red;
+    font-size: 1.4em;
+}
+/*                       #############################################################        */
+/*                       ##     Risultati ottenuti dai dati inseriti nel database   ##        */
+/*                       ####################################################à########        */
+section.libreria{
+    display: flex;
+    flex-grow: 1;
+}
+section.ricerca_ute{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+section.libreria div.titolo_ricerca{
+    width: 100%;
+    text-align: center;
+}
+section h1.risultati_ricerca{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(152, 78, 236);
+    font-size: 2.8em;
+    color: rgb(152, 78, 236);
+    margin-bottom: 0px;
+}
+section.libreria div.streams_prefe,
+section.libreria div.canali_prefe{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-top: 60px;
+
+}
+
+section.libreria div.streams_prefe div.cont_stream div.cont_info{
+    display: flex; 
+    flex-direction: column;
+    width: 46.5%;
+}
+div.streams_prefe div.cont_stream div.cont_info div.cont_infoStream,
+div.streams_prefe div.cont_stream div.cont_info div.cont_infoCanale{
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    
+    
+}
+
+section.libreria div.streams_prefe div.cont_stream{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    margin-bottom: 25px;
+    border-radius: 16px;
+    border: 3px solid rgb(152, 78, 236);
+    padding: 7px;
+}
+
+div.streams_prefe div.cont_stream img.img_stream{
+    width:50% ;
+    border-radius: 8px;
+}
+div.streams_prefe div.cont_stream div.cont_info img.cuore_prefe{
+    width: 15%;
+}
+
+div.streams_prefe div.cont_stream div.cont_info div.cuore_prefe{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    padding-right: 7px;
+}
+div.streams_prefe div.cont_stream div.cont_info .cont_infoStream h1{
+    
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 1.5em;
+}
+
+/*                       ###############################################        */
+/*                       ##     Css Canali ottenuti dalla Ricerca     ##        */
+/*                       ###############################################        */
+
+h1.titolo_ricerca{
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color:rgb(152, 78, 236) ;
+    font-size: 2.2em;
+    color: rgb(152, 78, 236);
+    margin-bottom: 0px;
+}

@@ -1,0 +1,124 @@
+/*CSS della pagine twich relative alle stream di una categoria scelta */
+
+/*                       ############################################        */
+/*                       ##     Css categoria scelta di Twitch     ##        */
+/*                       ############################################        */
+section.contenitore_cat{
+    width: 200px;
+    display: flex;
+    padding: 6px;
+    padding-left: 35px;
+    margin-top: 50px;
+}
+
+section.contenitore_cat img{
+    width: 100%;
+    border-radius: 16px;
+    border: 4px solid rgb(152, 78, 236);
+}
+section.contenitore_cat h2{
+    font-size: 3.5em;
+    white-space: nowrap;
+    margin: 50px 0px 0px 35px;
+}
+
+/*                       ########################################################        */
+/*                       ##     Css stream della categoria scelta libreria     ##        */
+/*                       ########################################################        */
+h1.canali{
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+    color: rgb(152, 78, 236);
+    text-decoration:underline;
+    font-size: 2.2em;
+    text-decoration-color:rgb(152, 78, 236) ;
+}
+section.libreria_ricerca{
+    display: flex;
+    flex-direction: column;    
+    padding: 40px;
+    padding-top: 0px;
+    margin-top: 20px;
+}
+
+h1.titolo_ricerca{
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color:rgb(152, 78, 236) ;
+    font-size: 2.2em;
+    color: rgb(152, 78, 236);
+    margin-bottom: 0px;
+}
+section.streams {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 6px;
+    margin-top: 120px;
+}
+
+section.streams div.contenitore{
+    display: flex;
+    flex-direction: column;
+    
+    width: 18.5%; 
+    border: 2px solid rgb(152, 78, 236);
+    margin-bottom: 32px;
+    border-radius: 8px;
+}
+
+section.streams div.contenitore div.img,
+section.streams div.contenitore div.img img{
+    width: 100%;
+    
+}
+section.streams div.contenitore h2{
+    z-index: 2;
+    position: absolute;
+    text-decoration: none;
+    margin-left: 5px;
+    background-color: rgba(0, 0, 0, 0.655);
+    color: white;
+    font-size: 0.9em;
+}
+section.streams div.contenitore div.cuore_bianco {
+    height: 23px;
+    z-index: 2;
+    position: absolute;
+    margin-top: 4px;
+    margin-right: 4px;
+    width: 18.15%;
+    display: flex;
+    cursor: pointer;
+    justify-content: right;
+}
+section.streams div.contenitore img.cuore_bianco{
+    width: 23px;
+
+}
+section.streams div.contenitore div.img img{
+    border-radius: 6px;
+    z-index: 1;
+}
+section.streams div.info {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+section.streams div.contenitore h1{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin:10px 0px 0px 0px;
+    padding-left: 5px;
+    height: 32px;
+    font-size:1.3em;
+    
+}
+
+
