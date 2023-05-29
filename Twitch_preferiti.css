@@ -60,6 +60,9 @@ div.streams_prefe div.cont_stream div.cont_info div.cont_infoCanale{
     
     
 }
+div.streams_prefe div.cont_stream div.cont_info div.cont_infoCanale{
+    margin-top: 8px;
+}
 
 section.libreria div.streams_prefe div.cont_stream{
     display: flex;
@@ -93,6 +96,7 @@ div.streams_prefe div.cont_stream div.cont_info .cont_infoStream h1{
     white-space: nowrap;
     text-overflow: ellipsis;
     font-size: 1.5em;
+    margin:0px;
 }
 
 /*                       ###############################################        */
