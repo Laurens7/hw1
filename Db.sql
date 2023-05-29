@@ -3,10 +3,10 @@ use hw1;
 
 create table UTENTI(
 id integer not null primary key auto_increment,
-nome varchar(25) not null,
-cognome varchar(25) not null,
-username varchar(25) not null unique,
-email varchar(45) not null unique,
+nome varchar(100) not null,
+cognome varchar(100) not null,
+username varchar(100) not null unique,
+email varchar(100) not null unique,
 password varchar(255) not null
 )Engine = InnoDB;
 
